@@ -2804,7 +2804,7 @@ static int uartdm_init_port(struct uart_port *uport)
 		MSM_HS_ERR("%s(): error creating task", __func__);
 		goto exit_lh_init;
 	}
-        sched_setscheduler(rx->task, SCHED_FIFO, &param);
+	sched_setscheduler(rx->task, SCHED_FIFO, &param);
 
 	kthread_init_work(&rx->kwork, msm_serial_hs_rx_work);
 
