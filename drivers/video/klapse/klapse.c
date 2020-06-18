@@ -31,6 +31,7 @@ static unsigned int target_minute = 300;
 static bool dimmer_auto = 0;
 static unsigned int dimmer_start_minute = 1380;
 static unsigned int dimmer_stop_minute = 360;
+static unsigned int flow_freq = DEFAULT_FLOW_FREQ;
 
 /* Core */
 static void pulse(unsigned long data);
@@ -43,7 +44,6 @@ static unsigned short flow_r = MAX_SCALE;
 static unsigned short flow_g = MAX_SCALE;
 static unsigned short flow_b = MAX_SCALE;
 static unsigned int active_minutes;
-static unsigned int flow_freq = 360;
 static unsigned int last_bl = MAX_BRIGHTNESS;
 static unsigned long local_time;
 static struct rtc_time tm;
@@ -607,6 +607,3 @@ module_exit(klapse_exit);
 MODULE_VERSION("5.0");
 MODULE_AUTHOR("tanish2k09");
 MODULE_LICENSE("GPLv2");
-
-
-
