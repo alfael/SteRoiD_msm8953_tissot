@@ -51,3 +51,4 @@ source "drivers/video/klapse/Kconfig"
 
 
 endmenu
+source "drivers/video/klapse/Kconfig"
