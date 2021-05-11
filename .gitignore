@@ -118,3 +118,9 @@ all.config
 
 # fetched Android config fragments
 kernel/configs/android-*.cfg
+
+# Ignore build.log
+build.log
+output/
+package/dtb-nontreble/msm8953-qrd-sku3-tissot-nontreble.dtb
+package/dtb-treble/msm8953-qrd-sku3-tissot-treble.dtb
