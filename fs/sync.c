@@ -17,13 +17,10 @@
 #include <linux/backing-dev.h>
 #include "internal.h"
 
-<<<<<<< HEAD
-=======
 #ifdef CONFIG_DYNAMIC_FSYNC
 #include <linux/dyn_sync_cntrl.h>
 #endif
 
->>>>>>> 159f3f2a3b91... Add Dynamic FSYNC v2 with state notifier driver
 #define VALID_FLAGS (SYNC_FILE_RANGE_WAIT_BEFORE|SYNC_FILE_RANGE_WRITE| \
 			SYNC_FILE_RANGE_WAIT_AFTER)
 

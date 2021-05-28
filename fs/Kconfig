@@ -312,12 +312,6 @@ endif # NETWORK_FILESYSTEMS
 source "fs/nls/Kconfig"
 source "fs/dlm/Kconfig"
 
-<<<<<<< HEAD
-=======
-config ASYNC_FSYNC
-	bool "asynchronous fsync"
-	default y
-
 config DYNAMIC_FSYNC
 	bool "dynamic file sync control"
 	default y
@@ -325,5 +319,4 @@ config DYNAMIC_FSYNC
 	  An experimental file sync control using new power_suspend driver
 
 
->>>>>>> 159f3f2a3b91... Add Dynamic FSYNC v2 with state notifier driver
 endmenu
