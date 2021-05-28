@@ -12,7 +12,7 @@ fi
 #rm -r ./output/*
 make CC=clang O=output clean
 make CC=clang O=output mrproper
-make CC=clang O=output tegrity_defconfig
+make CC=clang O=output steroid_defconfig
 #make O=output menuconfig
 make CC=clang O=output CC=clang AR=llvm-ar NM=llvm-nm OBJCOPY=llvm-objcopy OBJDUMP=llvm-objdump STRIP=llvm-strip  -j$(nproc --all) 2>&1 | tee build.log
 
@@ -47,7 +47,7 @@ do
         if [ ! -z "$LOCALVERSION" ]; then
                 break;
         fi
-done < arch/arm64/configs/tegrity_defconfig
+done < arch/arm64/configs/steroid_defconfig
 
 /bin/cp -rf $PATH_KERN $PATH_PACKAGE/kernel
 /bin/cp -rf $PATH_QCOM/msm8953-qrd-sku3-tissot-treble.dtb $PATH_PACKAGE/dtb-treble
