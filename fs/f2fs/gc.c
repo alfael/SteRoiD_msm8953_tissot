@@ -51,7 +51,6 @@ static inline void rapid_gc_set_wakelock(void)
 	mutex_unlock(&gc_wakelock_mutex);
 }
 
->>>>>>> d6864abb8838... f2fs: implement rapid GC for Android
 static int gc_thread_func(void *data)
 {
 	struct f2fs_sb_info *sbi = data;
