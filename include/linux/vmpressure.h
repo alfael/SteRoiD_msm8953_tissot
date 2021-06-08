@@ -29,13 +29,12 @@ struct vmpressure {
 
 struct mem_cgroup;
 
-extern void vmpressure(gfp_t gfp, struct mem_cgroup *memcg, bool tree,
-		       unsigned long scanned, unsigned long reclaimed,
-		       int order);
-extern void vmpressure_prio(gfp_t gfp, struct mem_cgroup *memcg, int prio);
-
 extern int vmpressure_notifier_register(struct notifier_block *nb);
 extern int vmpressure_notifier_unregister(struct notifier_block *nb);
+extern void vmpressure(gfp_t gfp, struct mem_cgroup *memcg, bool tree,
+		       unsigned long scanned, unsigned long reclaimed);
+extern void vmpressure_prio(gfp_t gfp, struct mem_cgroup *memcg, int prio);
+
 #ifdef CONFIG_MEMCG
 extern void vmpressure_init(struct vmpressure *vmpr);
 extern void vmpressure_cleanup(struct vmpressure *vmpr);
