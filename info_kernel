@@ -2,11 +2,11 @@
 ==========================INFO===========================
 *********************************************************
     - KERNEL NAME -> [SteRoiD💪]
-    - LINUX KERNEL VERSION -> [4.9.270]
+    - LINUX KERNEL VERSION -> [4.9.271]
     - CUSTOM KERNEL VERSION -> [#1]
     - LAST TOOLCHAIN VERSION AT RELEASE KERNEL DATE -> [proton clang by kdrag0n]
     - TARGET ANDROID VERSION -> [11 (maybe 10)]
-    - LAST VERSION DATE -> [2021-05-31]
+    - LAST VERSION DATE -> [2021-06-08]
     - Main purpose of this kernel is to be up to the
       latest tag of linux 4.9 with the best delivery of
       performance and battery to use as is.
@@ -19,14 +19,15 @@
     - DEFAULT I/O SCHEDULER -> [CFQ]
     - DEFAULT TCP CONGESTION CONTROL -> [BBR]
     - LATENCY IS PREFERRED TO THROUGHPUT -> [SMOOTH EXPERIENCE with bad benchmark]
-    - TOOLCHAIN OPTIMIZATION -> [LTO/O3/LLVM Polly Optimize Clang/llvm-ar/llvm-objcopy/llvm-nm/llvm-objdump/llvm-strip ]
+    - TOOLCHAIN OPTIMIZATION -> [MCPU/MTUNE/LTO/O3/LLVM Polly Optimize Clang/llvm-ar/llvm-objcopy/llvm-nm/llvm-objdump/llvm-strip ]
     - MANY DEBUGGER DISABLED -> [PERFORMANCE/BATTERY GAIN]
     - ARM64 OPTIMIZATIONS
     - RAPID GC F2FS by arter97
     - DYNAMIC FSYNC v2 by faux123 WITH STATE NOTIFIER DRIVER
-    - WIREGUARD V1.0.20210424
+    - WIREGUARD V1.0.20210606
     - NETWORK IMPROVEMENT
     - SOUND IMPROVEMENT
     - BOEFFLA WAKELOCK BLOCKER
     - DTS EAGLE
+    - SIMPLE LMK by kerneltoast
     - NO BACKPORT AND OTHER FIX FOR BEST STABILITY
