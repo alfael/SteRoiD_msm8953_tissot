@@ -2,11 +2,11 @@
 ==========================INFO===========================
 *********************************************************
     - KERNEL NAME -> [SteRoiD💪]
-    - LINUX KERNEL VERSION -> [4.9.272]
+    - LINUX KERNEL VERSION -> [4.9.273]
     - CUSTOM KERNEL VERSION -> [#1]
     - LAST TOOLCHAIN VERSION AT RELEASE KERNEL DATE -> [proton clang by kdrag0n]
     - TARGET ANDROID VERSION -> [11 (maybe 10)]
-    - LAST VERSION DATE -> [2021-06-15]
+    - LAST VERSION DATE -> [2021-06-16]
     - Main purpose of this kernel is to be up to the
       latest tag of linux 4.9 with the best delivery of
       performance and battery to use as is.
@@ -30,4 +30,5 @@
     - BOEFFLA WAKELOCK BLOCKER
     - DTS EAGLE
     - SIMPLE LMK by kerneltoast
+    - PORT CPU OC to 3.1Ghz FROM @d4rklucif3r
     - NO BACKPORT AND OTHER FIX FOR BEST STABILITY
