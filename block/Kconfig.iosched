@@ -2,6 +2,10 @@ if BLOCK
 
 menu "IO Schedulers"
 
+config IOSCHED_DEPRESSION
+	tristate "DEPRESSION I/O scheduler"
+	default n
+
 config IOSCHED_NOOP
 	bool
 	default y
@@ -55,10 +59,14 @@ choice
 	config DEFAULT_NOOP
 		bool "No-op"
 
+	config DEFAULT_DEPRESSION
+		bool "depression" if IOSCHED_DEPRESSION=y
+
 endchoice
 
 config DEFAULT_IOSCHED
 	string
+	default "depression" if DEFAULT_DEPRESSION
 	default "deadline" if DEFAULT_DEADLINE
 	default "cfq" if DEFAULT_CFQ
 	default "noop" if DEFAULT_NOOP
