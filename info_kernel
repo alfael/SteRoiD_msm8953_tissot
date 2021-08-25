@@ -2,11 +2,11 @@
 ==========================INFO===========================
 *********************************************************
     - KERNEL NAME -> [SteRoiD💪]
-    - LINUX KERNEL VERSION -> [4.9.273]
-    - CUSTOM KERNEL VERSION -> [#2]
-    - LAST TOOLCHAIN VERSION AT RELEASE KERNEL DATE -> [proton clang by kdrag0n]
+    - LINUX KERNEL VERSION -> [4.9.280]
+    - CUSTOM KERNEL VERSION -> [#4]
+    - LAST TOOLCHAIN VERSION AT RELEASE KERNEL DATE -> [EVA]
     - TARGET ANDROID VERSION -> [11 (maybe 10)]
-    - LAST VERSION DATE -> [2021-06-21]
+    - LAST VERSION DATE -> [2021-08-24]
     - Main purpose of this kernel is to be up to the
       latest tag of linux 4.9 with the best delivery of
       performance and battery to use as is.
@@ -16,10 +16,10 @@
 *********************************************************
     - CAF TAG ON LATEST KERNEL VERSION -> [LA.UM.9.6.2.r1-04700-89xx.0]
     - DEFAULT GOVERNOR -> [SCHEDUTIL]
-    - DEFAULT I/O SCHEDULER -> [CFQ]
+    - DEFAULT I/O SCHEDULER -> [CFQ TWEAKED]
     - DEFAULT TCP CONGESTION CONTROL -> [BBR]
     - LATENCY IS PREFERRED TO THROUGHPUT -> [SMOOTH EXPERIENCE with bad benchmark]
-    - TOOLCHAIN OPTIMIZATION -> [MCPU/MTUNE/LTO/O3/LLVM Polly Optimize Clang/llvm-ar/llvm-objcopy/llvm-nm/llvm-objdump/llvm-strip ]
+    - TOOLCHAIN OPTIMIZATION -> [MCPU/MTUNE/LTO/O3/FUNSAFE-MATH-OPTIMIZATIONS]
     - MANY DEBUGGER DISABLED -> [PERFORMANCE/BATTERY GAIN]
     - ARM64 OPTIMIZATIONS
     - RAPID GC F2FS by arter97
@@ -30,5 +30,4 @@
     - BOEFFLA WAKELOCK BLOCKER
     - DTS EAGLE
     - SIMPLE LMK by kerneltoast
-    - PORT CPU OC to 3.1Ghz FROM @d4rklucif3r
-    - NO BACKPORT AND OTHER FIX FOR BEST STABILITY
+    - BACKPORT OPTIMIZATION FROM OTHER KERNEL VERSION 
