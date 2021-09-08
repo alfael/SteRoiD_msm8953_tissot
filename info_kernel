@@ -2,11 +2,11 @@
 ==========================INFO===========================
 *********************************************************
     - KERNEL NAME -> [SteRoiD💪]
-    - LINUX KERNEL VERSION -> [4.9.280]
-    - CUSTOM KERNEL VERSION -> [#4]
-    - LAST TOOLCHAIN VERSION AT RELEASE KERNEL DATE -> [EVA]
+    - LINUX KERNEL VERSION -> [4.9.282]
+    - CUSTOM KERNEL VERSION -> [#6]
+    - LAST TOOLCHAIN VERSION AT RELEASE KERNEL DATE -> [EVA64]
     - TARGET ANDROID VERSION -> [11 (maybe 10)]
-    - LAST VERSION DATE -> [2021-08-24]
+    - LAST VERSION DATE -> [2021-09-08]
     - Main purpose of this kernel is to be up to the
       latest tag of linux 4.9 with the best delivery of
       performance and battery to use as is.
@@ -27,7 +27,10 @@
     - WIREGUARD V1.0.20210606
     - NETWORK IMPROVEMENT
     - SOUND IMPROVEMENT
+    - PROC SYS VM VALUES TWEAKED
     - BOEFFLA WAKELOCK BLOCKER
+    - CPU SCHEDULER (CFS) TWEAKED FROM LIQUORIX/ZEN KERNEL
     - DTS EAGLE
     - SIMPLE LMK by kerneltoast
     - BACKPORT OPTIMIZATION FROM OTHER KERNEL VERSION 
+    - CPU OC TO 3Ghz FROM LUCIFERKERNEL
