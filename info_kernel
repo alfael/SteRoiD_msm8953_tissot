@@ -3,10 +3,10 @@
 *********************************************************
     - KERNEL NAME -> [SteRoiD💪]
     - LINUX KERNEL VERSION -> [4.9.282]
-    - CUSTOM KERNEL VERSION -> [#6]
+    - CUSTOM KERNEL VERSION -> [#9]
     - LAST TOOLCHAIN VERSION AT RELEASE KERNEL DATE -> [EVA64]
     - TARGET ANDROID VERSION -> [11 (maybe 10)]
-    - LAST VERSION DATE -> [2021-09-08]
+    - LAST VERSION DATE -> [2021-09-28]
     - Main purpose of this kernel is to be up to the
       latest tag of linux 4.9 with the best delivery of
       performance and battery to use as is.
@@ -26,11 +26,13 @@
     - DYNAMIC FSYNC v2 by faux123 WITH STATE NOTIFIER DRIVER
     - WIREGUARD V1.0.20210606
     - NETWORK IMPROVEMENT
+    - GPU IMPROVEMENT
     - SOUND IMPROVEMENT
     - PROC SYS VM VALUES TWEAKED
     - BOEFFLA WAKELOCK BLOCKER
     - CPU SCHEDULER (CFS) TWEAKED FROM LIQUORIX/ZEN KERNEL
     - DTS EAGLE
     - SIMPLE LMK by kerneltoast
+    - KLAPSE/KCAL
     - BACKPORT OPTIMIZATION FROM OTHER KERNEL VERSION 
     - CPU OC TO 3Ghz FROM LUCIFERKERNEL
